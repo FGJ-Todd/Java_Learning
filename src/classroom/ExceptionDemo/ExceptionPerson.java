@@ -9,7 +9,7 @@ public class ExceptionPerson {
     static Logger LOGGER = (Logger) LoggerFactory.getLogger("Test.class");
     public static void setAge(int age)throws Exception{
         if(age<=0||age>100) {
-            throw new Exception("年龄不合法");
+            throw new Exception("年龄必须在1-100之间！");
         }
         else {
             System.out.println("年龄合法");
