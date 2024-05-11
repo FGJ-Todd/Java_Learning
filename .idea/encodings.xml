@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/classroom/CarRenta/Bus.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/CarRenta/Car.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/CarRenta/Customer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/CarRenta/MotoVchicle.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/CarRenta/TestRent.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/Friend/Friend.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/Friend/Test.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/Friend/Us.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/KeepAPet/Cat.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/KeepAPet/Dog.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/KeepAPet/Master.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/KeepAPet/Penguin.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/KeepAPet/Pet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/KeepAPet/Test.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/MiceDrinkWine/GrayMouse.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/MiceDrinkWine/MottleMouse.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/MiceDrinkWine/Mouse.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/MiceDrinkWine/Test.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/MiceDrinkWine/WhiteMouse.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/Phone/AptitudeHandst.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/Phone/CommonHandset.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/Phone/Network.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/Phone/PlayWiring.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/Phone/TheakePictures.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/Printer/DotMatrixPrinter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/Printer/InketPrinter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/Printer/LaserPrinter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/Printer/Printer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/USB/Test.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/USB/UDisk.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/USB/USBInterface.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/USB/UsbFan.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/quadrilateral/Parallelogram.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/quadrilateral/Quadrilateral.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/quadrilateral/Rectangle.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/quadrilateral/Square.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/classroom/quadrilateral/Test.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
