@@ -1,9 +1,9 @@
 package examination1.topic7;
 
 public class Course {
-    private String nameC;
-    private int fraction;
-    private int grades;
+    private final String nameC;
+    private final int fraction;
+    private final int grades;
 
     public String getNameC() {
         return nameC;

@@ -3,17 +3,32 @@ package classroom.KeepAPet;
  * 企鹅类，宠物的子类。
  */
 public class Penguin extends Pet {
+	private int id;
 	private String sex;// 性别
 	/**
 	 * 有参构造方法。
-	 * @param name 昵称
-	 * @param sex 性别
-	 */
+     */
 	Penguin(){}
+
+	public Penguin(int id, String name, String sex){
+		super(name);
+		this.sex = sex;
+		this.id = id;
+	}
+
 	public Penguin(String name, int health, int love, String sex) {
 		super(name, health, love);
 		this.sex = sex;
 	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
 	public String getSex() {
 		return sex;
 	}

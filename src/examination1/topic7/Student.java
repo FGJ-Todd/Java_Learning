@@ -2,10 +2,10 @@ package examination1.topic7;
 
 public class Student {
     private String name;
-    private String id;
+    private final String id;
     private Course [] courses;
-    private double avgGrades;
-    private int sumFraction;
+    private final double avgGrades;
+    private final int sumFraction;
 
     public String getName() {
         return name;
@@ -15,20 +15,12 @@ public class Student {
         this.name = name;
     }
 
-    public Course[] getCourses() {
-        return courses;
-    }
-
     public Student(String name, String id, Course[] courses, double avgGrades, int sumFraction) {
         this.name = name;
         this.id = id;
         this.courses = courses;
         this.avgGrades = avgGrades;
         this.sumFraction = sumFraction;
-    }
-
-    {
-        this.courses = new Course[3];
     }
 
     public void courseSelection(Course course){
@@ -77,7 +69,7 @@ public class Student {
         for (Course cours : this.courses) {
             sum += cours.getGrades();
         }
-        sum = (double) sum /this.courses.length;
+        sum = sum /this.courses.length;
         System.out.println("平均成绩为："+sum);
     }
 
