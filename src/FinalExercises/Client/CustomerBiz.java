@@ -13,10 +13,7 @@ public class CustomerBiz{
         this.customers = customers;
     }
 
-    public void addCustomer(Customer cust)
-    {
-        this.customers.add(cust);
-    }
+
 
     public void showCustomers()
     {
@@ -24,5 +21,9 @@ public class CustomerBiz{
             System.out.println("客户信息：");
             System.out.println(cust.getName() + "\t" + cust.getAge() + "\t" + cust.isVIP());
         }
+    }
+    public void addCustomer(Customer cust)
+    {
+        this.customers.add(cust);
     }
 }
