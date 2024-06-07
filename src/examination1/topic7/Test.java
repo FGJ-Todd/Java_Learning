@@ -1,5 +1,7 @@
 package examination1.topic7;
 
+import java.util.Random;
+
 public class Test {
     public static void main(String[] args) {
         Course course1 = new Course("语文", 2, 90);

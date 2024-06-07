@@ -56,4 +56,13 @@ public class Penguin extends Pet {
 			System.out.println("企鹅 "+this.getName()+",健康值+5");
 		}
 	}
+
+	@Override
+	public String toString() {
+		return "Penguin{" +
+				"id=" + id +
+				", name=" + super.getName() +
+				", sex='" + sex + '\'' +
+				'}';
+	}
 }

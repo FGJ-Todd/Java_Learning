@@ -56,23 +56,55 @@ public class ArraylistDemo {
         dogs.put(dog2.getName(), dog2);
         dogs.put(dog3.getName(), dog3);
 
-        for (Dog d : dogs.values()){
-            System.out.println(d.getName()+"的品种是："+d.getStrain());
+        for (Dog d : dogs.values()) {
+            System.out.println(d.getName() + "的品种是：" + d.getStrain());
         }
 
         System.out.println();
-
+        //练习1
         Penguin qq = new Penguin(1, "qq", "公");
         Penguin xq = new Penguin(2, "小球", "母");
         Map<String, Penguin> penguins = new HashMap<>();
         penguins.put(qq.getName(), qq);
         penguins.put(xq.getName(), xq);
-        Set<String> keys = penguins.keySet();
+        penguins.remove(qq.getName());
+        if (penguins.get("qq") == null) {
+            System.out.println("没有找到该宠物");
+        } else {
+            System.out.println(penguins.get("qq"));
+        }
+
+
+        //练习2
+
+        Map<String, Penguin> penguins1 = new HashMap<>();
+        penguins1.put(qq.getName(), qq);
+        penguins1.put(xq.getName(), xq);
+        if (penguins1.get("qq") == null) {
+            System.out.println("没有找到该宠物");
+        } else {
+            System.out.println(penguins1.get("qq"));
+        }
+
+        //练习3
+        Map<String, Penguin> penguins2 = new HashMap<>();
+        penguins2.put(qq.getName(), qq);
+        penguins2.put(xq.getName(), xq);
+        Set<String> keys = penguins2.keySet();
         Iterator<String> it = keys.iterator();
-        while (it.hasNext()){
+        while (it.hasNext()) {
             String key = it.next();
-            Penguin p = penguins.get(key);
-            System.out.println(p.getName()+"的性别是："+p.getSex());
+            Penguin p = penguins2.get(key);
+            System.out.println(p.getName() + "的性别是：" + p.getSex());
+        }
+
+        //练习4
+
+        Map<String, Penguin> penguins3 = new HashMap<>();
+        penguins3.put(qq.getName(), qq);
+        penguins3.put(xq.getName(), xq);
+        for(Penguin p : penguins3.values()){
+            System.out.println(p);
         }
 
         Integer num = new Integer(12);

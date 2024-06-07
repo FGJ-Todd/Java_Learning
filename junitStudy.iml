@@ -37,5 +37,6 @@
     <orderEntry type="library" name="junit-4.13.2" level="project" />
     <orderEntry type="library" name="logback-classic-1.2.3" level="project" />
     <orderEntry type="library" name="mysql-connector-java-8.0.26" level="project" />
+    <orderEntry type="library" name="mssql-jdbc-12.6.1.jre11" level="project" />
   </component>
 </module>
