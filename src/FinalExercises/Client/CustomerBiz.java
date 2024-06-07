@@ -2,16 +2,20 @@ package FinalExercises.Client;
 
 import java.util.ArrayList;
 
-public class CustomerBiz extends Customer{
-    private ArrayList<Customer> customers;
+public class CustomerBiz{
+    private ArrayList<Customer> customers = new ArrayList<>();
 
-    public CustomerBiz(String name, int age, boolean VIP) {
-        super(name, age, VIP);
+    public ArrayList<Customer> getCustomers() {
+        return customers;
+    }
+
+    public void setCustomers(ArrayList<Customer> customers) {
+        this.customers = customers;
     }
 
     public void addCustomer(Customer cust)
     {
-        customers.add(cust);
+        this.customers.add(cust);
     }
 
     public void showCustomers()
